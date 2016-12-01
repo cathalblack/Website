@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- HTML5 Layout (Q 2.a.ii.3)-->
+
+<head>
+
+	<!-- I have added my own metadata below
+	================================================== -->
+	<meta charset="utf-8">
+	<title>Myplan.ie</title>
+	<meta name="description" content="Planning and Zoning Information Ireland">
+	<meta name="keywords" content="Myplan,Planning,Zoning">
+	<meta name="author" content="Cathal Black">
+
+	<!-- Mobile Specific Metas (unedited)
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS - I have added mystyles.css
+	Modified code sourced from Skeleton V1.2
+	================================================== -->
+	<link rel="stylesheet" href="stylesheets/mystyles.css">
+	
+	<!-- Fonts - from Google Fonts
+	================================================== -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<!-- Favicons - I have added my own favicon (.ico) 
+	using https://icoconvert.com/ to convert from .jpg to .ico
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	
+</head>
+
+<body>
+
+	<!-- Primary Page Layout
+	
+	#Responsive Navigation Menu
+	Modified code sourced from... http://jsfiddle.net/Lw6axfb2/
+	JS script sourced from http://www.w3schools.com/howto/howto_js_topnav.asp
+	Menu icons from various online sources - edited 
+	================================================== -->
+	<header>
+	<a href="index.html">
+	<img src="images/logo-web.jpg" alt="Myplan.ie logo">
+	</header>
+	
+	<ul class="topnav" id="myTopnav">
+	  <li><a class="active" href="index.html"><img src="images/nav_icon_home.png"><br>Home</a></li>	  
+		<li><a class="on" href="about.html"><img src="images/nav_icon_about.png"><br>About</a></li>
+		<li><a class="on" href="reports.html"><img src="images/nav_icon_reports.png"><br>Reports</a></li>
+		<li><a class="on" href="news.html"><img src="images/nav_icon_news.png"><br>News</a></li>
+		<li><a class="on" href="help.html"><img src="images/nav_icon_help.png"><br>Help</a></li>
+		<li><a class="on" href="feedback.html"><img src="images/nav_icon_feedback.png"><br>Feedback</a></li>
+		<li><a class="on" href="contacts.html"><img src="images/nav_icon_contacts.png"><br>Contacts</a></li>
+		<li><a class="on" href="gaeilge.html"><img src="images/nav_icon_language.png"><br>Gaeilge</a></li>
+	  
+	  <li class="icon">
+		<a href="javascript:void(0);" style="font-size:30px;" onclick="myFunction()">☰</a>
+	  </li>
+	</ul>
+
+	<!-- css .container 
+	I have modified this to eight columns-->
+
+	<div class="container">
+		<div class="eight columns">
+			<h1 class="remove-bottom">About</h1>
+			<hr />
+		</div>
+		<div class="full column">
+			<p>Planning is an important function of local authorities and is also an important issue for the country and local communities. Planning is about people and place, how future development will be guided to ensure that, together, economic recovery is assured, quality of life is improved and environmental qualities are either protected or enhanced. The development plan or the local area plans of your local authority is the framework used in assessing planning applications. There are over 400 development and local area plans across the country. Some are for large urban areas such as the Dublin City Development Plan while some may be for smaller villages, right across the country. To know about planning in your area and key requirements, whether as someone thinking of submitting a planning application or inputting to their assessment through public consultation, you must consult your local plan.</p>
+ 
+			<p>The aim of Myplan.ie is to create a one stop shop for information about plans and also to provide other information which is relevant to planning decision-making (census, heritage sites, patterns of housing development etc) that will not only be of benefit to citizens but will also assist with coordination between local authorities and more generally with the delivery of public services.</p>
+			 
+			<p>Myplan.ie is an initiative of the Department of Housing, Planning, Community and Local Government on behalf of all of the planning authorities across the country. The local authorities will ensure that the information is kept up to date as possible.</p>
+			 
+			<p>The Department, with local authorities and other public bodies, are working to ensure that Myplan.ie will expand over time to incorporate information about other aspects of the planning system such as information about planning applications and other planning matters being handled by local authorities and An Bord Pleanála.</p>
+					
+		<hr />
+		</div>
+
+	</div><!-- container -->
+		<div class="container">
+			<div class="footer"><br>
+				<a href="www.housing.gov.ie">
+				<img src="images/DHPCLG_Logo.jpg" alt="Departmental Logo" style="width:200px;"></a><br><br>
+				<p>Myplan.ie is an initiative by the Department of Housing, Planning, Community and Local Government</p>
+			</div>
+
+	</div><!-- container -->
+
+
+	<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+	</script>
+
+<!-- End Document
+================================================== -->
+</body>
+</html>

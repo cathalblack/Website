@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- HTML5 Layout (Q 2.a.ii.3)-->
+
+<head>
+
+	<!-- I have added my own metadata below
+	================================================== -->
+	<meta charset="utf-8">
+	<title>Myplan.ie</title>
+	<meta name="description" content="Planning and Zoning Information Ireland">
+	<meta name="keywords" content="Myplan,Planning,Zoning">
+	<meta name="author" content="Cathal Black">
+
+	<!-- Mobile Specific Metas (unedited)
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS - I have added mystyles.css
+	Modified code sourced from Skeleton V1.2
+	================================================== -->
+	<link rel="stylesheet" href="stylesheets/mystyles.css">
+	
+	<!-- Fonts - from Google Fonts
+	================================================== -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<!-- Favicons - I have added my own favicon (.ico) 
+	using https://icoconvert.com/ to convert from .jpg to .ico
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	
+</head>
+
+<body>
+
+	<!-- Primary Page Layout
+	
+	#Responsive Navigation Menu
+	Modified code sourced from... http://jsfiddle.net/Lw6axfb2/
+	JS script sourced from http://www.w3schools.com/howto/howto_js_topnav.asp
+	Menu icons from various online sources - edited 
+	================================================== -->
+	<header>
+	<a href="index.html">
+	<img src="images/logo-web.jpg" alt="Myplan.ie logo">
+	</header>
+	
+	<ul class="topnav" id="myTopnav">
+	  <li><a class="active" href="index.html"><img src="images/nav_icon_home.png"><br>Home</a></li>	  
+		<li><a class="on" href="about.html"><img src="images/nav_icon_about.png"><br>About</a></li>
+		<li><a class="on" href="reports.html"><img src="images/nav_icon_reports.png"><br>Reports</a></li>
+		<li><a class="on" href="news.html"><img src="images/nav_icon_news.png"><br>News</a></li>
+		<li><a class="on" href="help.html"><img src="images/nav_icon_help.png"><br>Help</a></li>
+		<li><a class="on" href="feedback.html"><img src="images/nav_icon_feedback.png"><br>Feedback</a></li>
+		<li><a class="on" href="contacts.html"><img src="images/nav_icon_contacts.png"><br>Contacts</a></li>
+		<li><a class="on" href="gaeilge.html"><img src="images/nav_icon_language.png"><br>Gaeilge</a></li>
+	  
+	  <li class="icon">
+		<a href="javascript:void(0);" style="font-size:30px;" onclick="myFunction()">☰</a>
+	  </li>
+	</ul>
+
+	<!-- css .container 
+	I have modified this to eight columns-->
+
+	<div class="container">
+		<div class="eight columns">
+			<h1 class="remove-bottom">Reports</h1>
+			<hr />
+		</div>
+		<div class="full column">
+			<p>This page is under construction...</p>
+					
+	
+		</div>
+
+		
+	</div><!-- container -->
+	
+	<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+	</script>
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
